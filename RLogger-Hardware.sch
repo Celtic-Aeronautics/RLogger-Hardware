@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Module:Arduino_Nano_v3.x A?
+L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 6083FCEE
 P 5150 5000
-F 0 "A?" H 4450 4000 50  0000 C CNN
+F 0 "A1" H 4450 4000 50  0000 C CNN
 F 1 "Arduino_Nano_v3.x" H 4700 3900 50  0000 C CNN
 F 2 "Module:Arduino_Nano" H 5150 5000 50  0001 C CIN
 F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 5150 5000 50  0001 C CNN
@@ -25,45 +25,45 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 5150 5000 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J4
 U 1 1 60843AEA
 P 10100 1650
-F 0 "J?" H 10180 1642 50  0000 L CNN
+F 0 "J4" H 10180 1642 50  0000 L CNN
 F 1 "MicroSD" H 10180 1551 50  0000 L CNN
-F 2 "" H 10100 1650 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 10100 1650 50  0001 C CNN
 F 3 "~" H 10100 1650 50  0001 C CNN
 	1    10100 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x07 J?
+L Connector_Generic:Conn_01x07 J5
 U 1 1 6084440D
 P 10100 2950
-F 0 "J?" H 10180 2992 50  0000 L CNN
+F 0 "J5" H 10180 2992 50  0000 L CNN
 F 1 "BMI160" H 10180 2901 50  0000 L CNN
-F 2 "" H 10100 2950 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 10100 2950 50  0001 C CNN
 F 3 "~" H 10100 2950 50  0001 C CNN
 	1    10100 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x07 J?
+L Connector_Generic:Conn_01x07 J2
 U 1 1 60844CC8
 P 7800 1650
-F 0 "J?" H 7880 1692 50  0000 L CNN
+F 0 "J2" H 7880 1692 50  0000 L CNN
 F 1 "Baro" H 7880 1601 50  0000 L CNN
-F 2 "" H 7800 1650 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 7800 1650 50  0001 C CNN
 F 3 "~" H 7800 1650 50  0001 C CNN
 	1    7800 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x09 J?
+L Connector_Generic:Conn_01x09 J3
 U 1 1 60845B10
 P 7800 3050
-F 0 "J?" H 7880 3092 50  0000 L CNN
+F 0 "J3" H 7880 3092 50  0000 L CNN
 F 1 "FRAM" H 7880 3001 50  0000 L CNN
-F 2 "" H 7800 3050 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 7800 3050 50  0001 C CNN
 F 3 "~" H 7800 3050 50  0001 C CNN
 	1    7800 3050
 	1    0    0    -1  
@@ -105,10 +105,10 @@ Wire Wire Line
 Wire Wire Line
 	7150 1550 7600 1550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 6085614E
 P 6800 1550
-F 0 "#PWR?" H 6800 1300 50  0001 C CNN
+F 0 "#PWR06" H 6800 1300 50  0001 C CNN
 F 1 "GND" H 6805 1377 50  0000 C CNN
 F 2 "" H 6800 1550 50  0001 C CNN
 F 3 "" H 6800 1550 50  0001 C CNN
@@ -126,10 +126,10 @@ Wire Wire Line
 Wire Wire Line
 	9900 1650 9550 1650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 60857E73
 P 8900 1650
-F 0 "#PWR?" H 8900 1400 50  0001 C CNN
+F 0 "#PWR08" H 8900 1400 50  0001 C CNN
 F 1 "GND" H 8905 1477 50  0000 C CNN
 F 2 "" H 8900 1650 50  0001 C CNN
 F 3 "" H 8900 1650 50  0001 C CNN
@@ -139,10 +139,10 @@ $EndComp
 Wire Wire Line
 	7600 2950 7200 2950
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 6085AAD2
 P 6800 3550
-F 0 "#PWR?" H 6800 3300 50  0001 C CNN
+F 0 "#PWR07" H 6800 3300 50  0001 C CNN
 F 1 "GND" H 6805 3377 50  0000 C CNN
 F 2 "" H 6800 3550 50  0001 C CNN
 F 3 "" H 6800 3550 50  0001 C CNN
@@ -154,10 +154,10 @@ Wire Wire Line
 Wire Wire Line
 	9900 2950 9500 2950
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 6085E93A
 P 9250 2950
-F 0 "#PWR?" H 9250 2700 50  0001 C CNN
+F 0 "#PWR09" H 9250 2700 50  0001 C CNN
 F 1 "GND" H 9255 2777 50  0000 C CNN
 F 2 "" H 9250 2950 50  0001 C CNN
 F 3 "" H 9250 2950 50  0001 C CNN
@@ -276,10 +276,10 @@ NoConn ~ 5650 5600
 NoConn ~ 5650 5700
 NoConn ~ 5250 4000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 60935326
 P 5150 6400
-F 0 "#PWR?" H 5150 6150 50  0001 C CNN
+F 0 "#PWR05" H 5150 6150 50  0001 C CNN
 F 1 "GND" H 5155 6227 50  0000 C CNN
 F 2 "" H 5150 6400 50  0001 C CNN
 F 3 "" H 5150 6400 50  0001 C CNN
@@ -300,76 +300,76 @@ Text Label 5350 3800 0    50   ~ 0
 Wire Wire Line
 	5350 4000 5350 3800
 $Comp
-L Device:C_Small C?
+L Device:C_Small C2
 U 1 1 6093AD85
 P 4150 1900
-F 0 "C?" H 4242 1946 50  0000 L CNN
+F 0 "C2" H 4242 1946 50  0000 L CNN
 F 1 "22uF" H 4242 1855 50  0000 L CNN
-F 2 "" H 4150 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4150 1900 50  0001 C CNN
 F 3 "~" H 4150 1900 50  0001 C CNN
 	1    4150 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R2
 U 1 1 6093C05F
 P 3750 2300
-F 0 "R?" H 3809 2346 50  0000 L CNN
+F 0 "R2" H 3809 2346 50  0000 L CNN
 F 1 "1.87K" H 3809 2255 50  0000 L CNN
-F 2 "" H 3750 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 2300 50  0001 C CNN
 F 3 "~" H 3750 2300 50  0001 C CNN
 	1    3750 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R1
 U 1 1 6093C433
 P 3750 1450
-F 0 "R?" H 3809 1496 50  0000 L CNN
+F 0 "R1" H 3809 1496 50  0000 L CNN
 F 1 "5.62K" H 3809 1405 50  0000 L CNN
-F 2 "" H 3750 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 1450 50  0001 C CNN
 F 3 "~" H 3750 1450 50  0001 C CNN
 	1    3750 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L_Small L?
+L Device:L_Small L1
 U 1 1 6093D259
 P 2550 800
-F 0 "L?" V 2598 846 50  0000 L CNN
+F 0 "L1" V 2598 846 50  0000 L CNN
 F 1 "4.7uH" V 2600 550 50  0000 L CNN
-F 2 "" H 2550 800 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" H 2550 800 50  0001 C CNN
 F 3 "~" H 2550 800 50  0001 C CNN
 	1    2550 800 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Schottky_Small D?
+L Device:D_Schottky_Small D1
 U 1 1 6093DFC5
 P 3500 800
-F 0 "D?" H 3500 900 50  0000 C CNN
+F 0 "D1" H 3500 900 50  0000 C CNN
 F 1 "D_Schottky_Small" H 3500 700 50  0000 C CNN
-F 2 "" V 3500 800 50  0001 C CNN
+F 2 "Diode_SMD:D_Powermite_AK" V 3500 800 50  0001 C CNN
 F 3 "~" V 3500 800 50  0001 C CNN
 	1    3500 800 
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J1
 U 1 1 609558EB
 P 2200 5350
-F 0 "J?" H 2280 5342 50  0000 L CNN
-F 1 "Conn_01x02" H 2280 5251 50  0000 L CNN
-F 2 "" H 2200 5350 50  0001 C CNN
+F 0 "J1" H 2280 5342 50  0000 L CNN
+F 1 "Bat Connector" H 2280 5251 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2200 5350 50  0001 C CNN
 F 3 "~" H 2200 5350 50  0001 C CNN
 	1    2200 5350
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 60957449
 P 2550 5450
-F 0 "#PWR?" H 2550 5200 50  0001 C CNN
+F 0 "#PWR04" H 2550 5200 50  0001 C CNN
 F 1 "GND" H 2555 5277 50  0000 C CNN
 F 2 "" H 2550 5450 50  0001 C CNN
 F 3 "" H 2550 5450 50  0001 C CNN
@@ -377,10 +377,10 @@ F 3 "" H 2550 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR03
 U 1 1 60957E11
 P 2550 5150
-F 0 "#PWR?" H 2550 5000 50  0001 C CNN
+F 0 "#PWR03" H 2550 5000 50  0001 C CNN
 F 1 "+BATT" H 2565 5323 50  0000 C CNN
 F 2 "" H 2550 5150 50  0001 C CNN
 F 3 "" H 2550 5150 50  0001 C CNN
@@ -396,21 +396,21 @@ Wire Wire Line
 Wire Wire Line
 	2550 5350 2550 5450
 $Comp
-L MIC2288BD5:MIC2288BD5 U?
+L MIC2288BD5:MIC2288BD5 U1
 U 1 1 60993818
 P 2550 1850
-F 0 "U?" H 2550 2637 60  0000 C CNN
+F 0 "U1" H 2550 2637 60  0000 C CNN
 F 1 "MIC2288BD5" H 2550 2531 60  0000 C CNN
-F 2 "TSOT-23-5_D5_MCL" H 2550 2490 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2550 2490 60  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1670780.pdf" H 2550 2531 60  0001 C CNN
 	1    2550 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR01
 U 1 1 609971C3
 P 900 900
-F 0 "#PWR?" H 900 750 50  0001 C CNN
+F 0 "#PWR01" H 900 750 50  0001 C CNN
 F 1 "+BATT" H 915 1073 50  0000 C CNN
 F 2 "" H 900 900 50  0001 C CNN
 F 3 "" H 900 900 50  0001 C CNN
@@ -422,10 +422,10 @@ Wire Wire Line
 Wire Wire Line
 	900  1500 1450 1500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 60998F3D
 P 2550 3300
-F 0 "#PWR?" H 2550 3050 50  0001 C CNN
+F 0 "#PWR02" H 2550 3050 50  0001 C CNN
 F 1 "GND" H 2555 3127 50  0000 C CNN
 F 2 "" H 2550 3300 50  0001 C CNN
 F 3 "" H 2550 3300 50  0001 C CNN
@@ -435,12 +435,12 @@ $EndComp
 Wire Wire Line
 	2550 3300 2550 2750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1
 U 1 1 6099B342
 P 900 2050
-F 0 "C?" H 992 2096 50  0000 L CNN
+F 0 "C1" H 992 2096 50  0000 L CNN
 F 1 "4.7uF" H 992 2005 50  0000 L CNN
-F 2 "" H 900 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 900 2050 50  0001 C CNN
 F 3 "~" H 900 2050 50  0001 C CNN
 	1    900  2050
 	1    0    0    -1  
@@ -504,4 +504,5 @@ Wire Wire Line
 Connection ~ 3750 2050
 Wire Wire Line
 	3750 2050 3750 1550
+NoConn ~ 5050 4000
 $EndSCHEMATC
