@@ -76,8 +76,6 @@ Text Label 9550 1750 0    50   ~ 0
 DO
 Text Label 9550 1850 0    50   ~ 0
 DI
-Text Label 9550 1950 0    50   ~ 0
-CS
 Text Label 6800 2550 0    50   ~ 0
 +5V
 Text Label 7200 2950 0    50   ~ 0
@@ -86,8 +84,6 @@ Text Label 7200 3050 0    50   ~ 0
 DO
 Text Label 7200 3150 0    50   ~ 0
 DI
-Text Label 7200 3250 0    50   ~ 0
-CS
 Text Label 9250 2600 0    50   ~ 0
 +5V
 Text Label 9500 2950 0    50   ~ 0
@@ -181,7 +177,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 5500 5650 5500
 Text Label 6800 1900 0    50   ~ 0
-+5V5
++5V
 Wire Wire Line
 	6800 1950 6800 1900
 Wire Wire Line
@@ -241,8 +237,6 @@ Wire Wire Line
 	6900 3150 7600 3150
 Text Label 6900 3250 0    50   ~ 0
 SS0
-Wire Wire Line
-	6900 3250 7600 3250
 NoConn ~ 9900 2750
 Text Label 9150 1750 0    50   ~ 0
 MISO
@@ -250,8 +244,6 @@ Text Label 9150 1850 0    50   ~ 0
 MOSI
 Text Label 9150 1950 0    50   ~ 0
 SS1
-Wire Wire Line
-	9150 1950 9900 1950
 Wire Wire Line
 	9150 1850 9900 1850
 Wire Wire Line
@@ -294,9 +286,9 @@ Wire Wire Line
 	5250 6400 5150 6400
 Connection ~ 5150 6400
 Text Label 6800 1200 0    50   ~ 0
-+5V5
++5V
 Text Label 5350 3800 0    50   ~ 0
-+5V5
++5V
 Wire Wire Line
 	5350 4000 5350 3800
 $Comp
@@ -475,7 +467,7 @@ Connection ~ 3350 800
 Wire Wire Line
 	3350 800  3400 800 
 Text Label 4300 800  0    50   ~ 0
-+5V5
++5V
 Wire Wire Line
 	3600 800  3750 800 
 Wire Wire Line
@@ -505,4 +497,8 @@ Connection ~ 3750 2050
 Wire Wire Line
 	3750 2050 3750 1550
 NoConn ~ 5050 4000
+Wire Wire Line
+	7600 3250 6900 3250
+Wire Wire Line
+	9900 1950 9150 1950
 $EndSCHEMATC
