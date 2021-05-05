@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 30)
-    (tracks 120)
+    (tracks 123)
     (zones 0)
     (modules 13)
     (nets 43)
@@ -30,7 +30,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -41,7 +41,7 @@
     (trace_min 0.2)
     (via_size 0.8)
     (via_drill 0.4)
-    (via_min_size 0.4)
+    (via_min_size 0.3)
     (via_min_drill 0.3)
     (uvia_size 0.3)
     (uvia_drill 0.1)
@@ -881,6 +881,9 @@
   (via (at 147 95.75) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (segment (start 145.25 97.5) (end 147 95.75) (width 0.25) (layer F.Cu) (net 7))
   (segment (start 144.5 97.5) (end 145.25 97.5) (width 0.25) (layer F.Cu) (net 7))
+  (via (at 141.5 61.25) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
+  (via (at 141.5 63.75) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
+  (segment (start 141.5 61.25) (end 141.5 63.75) (width 0.25) (layer F.Cu) (net 7))
   (via (at 143.25 106.25) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 31))
   (via (at 153 81.5) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 27))
   (via (at 153.5 78) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 27))
