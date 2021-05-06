@@ -177,7 +177,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 5500 5650 5500
 Text Label 6800 1900 0    50   ~ 0
-+5V5
++5V
 Wire Wire Line
 	6800 1950 6800 1900
 Wire Wire Line
@@ -501,4 +501,26 @@ Wire Wire Line
 	7600 3250 6900 3250
 Wire Wire Line
 	9900 1950 9150 1950
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60931938
+P 8300 4400
+F 0 "H1" H 8400 4446 50  0000 L CNN
+F 1 "MountingHole" H 8400 4355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8400 4309 50  0001 L CNN
+F 3 "~" H 8300 4400 50  0001 C CNN
+	1    8300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 609352AC
+P 8300 4600
+F 0 "H2" H 8400 4646 50  0000 L CNN
+F 1 "MountingHole" H 8400 4555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8400 4509 50  0001 L CNN
+F 3 "~" H 8300 4600 50  0001 C CNN
+	1    8300 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
