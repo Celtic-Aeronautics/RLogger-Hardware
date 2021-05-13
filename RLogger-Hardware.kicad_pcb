@@ -392,9 +392,9 @@
     (fp_text user %R (at 0 0 90) (layer B.Fab) hide
       (effects (font (size 0.8 0.8) (thickness 0.12)) (justify mirror))
     )
-    (pad 1 smd roundrect (at -1.5625 0 270) (size 1.325 1.8) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.1886784905660377)
+    (pad 1 smd roundrect (at -1.5625 0 270) (size 1.325 1.8) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.1886777358490566)
       (net 31 /+5V))
-    (pad 2 smd roundrect (at 1.5625 0 270) (size 1.325 1.8) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.1886784905660377)
+    (pad 2 smd roundrect (at 1.5625 0 270) (size 1.325 1.8) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.1886777358490566)
       (net 7 GND))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
       (at (xyz 0 0 0))
@@ -979,7 +979,7 @@
   (segment (start 142.6525 82) (end 146.35 82) (width 0.25) (layer B.Cu) (net 28))
   (segment (start 146.35 79.75) (end 146.39 79.71) (width 0.25) (layer B.Cu) (net 28))
   (segment (start 146.35 82) (end 146.35 79.75) (width 0.25) (layer B.Cu) (net 28))
-  (via (at 146.25 125.75) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 31))
+  (via (at 146.25 125.75) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 31) (status 1000000))
   (segment (start 136.9375 77) (end 136 77.9375) (width 0.25) (layer B.Cu) (net 31))
   (segment (start 139 77) (end 136.9375 77) (width 0.25) (layer B.Cu) (net 31))
   (segment (start 139 80.6985) (end 140.3015 82) (width 0.25) (layer B.Cu) (net 31))
